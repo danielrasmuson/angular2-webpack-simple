@@ -6,7 +6,7 @@ import {Component} from '@angular/core'
   providers: [],
   template: `
     <div>
-      <h2>Hello {{name}}</h2>
+      <h2>What what Hello {{name}}</h2>
 
     </div>
   `,
