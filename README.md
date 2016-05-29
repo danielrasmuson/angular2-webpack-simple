@@ -4,3 +4,4 @@ npm install --save @angular/http @angular/common @angular/compiler @angular/core
 npm install awesome-typescript-loader --save-dev
 npm install --save es6-promise es6-shim es7-reflect-metadata ts-helpers
 npm install process --save
+npm install angular2-hmr

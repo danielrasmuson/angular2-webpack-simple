@@ -26,6 +26,7 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "angular2-hmr": "^0.7.0",
     "typescript": "^1.8.10",
     "webpack": "^1.13.1"
   }
