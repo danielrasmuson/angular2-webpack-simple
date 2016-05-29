@@ -15,6 +15,6 @@ import {Component} from '@angular/core'
 export class App {
   private name: string;
   constructor() {
-    this.name = 'Angular2 (Release Candidate!)'
+    this.name = 'Test Angular2 (Release Candidate!)'
   }
 }
