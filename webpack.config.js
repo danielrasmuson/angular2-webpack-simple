@@ -5,7 +5,7 @@ module.exports = {
     './src/main'
   ],
   output: {
-    filename: 'bundle.js'
+    filename: './src/bundle.js'
   },
   resolve: {
     extensions: ['', '.ts', '.js']
