@@ -1,7 +1,7 @@
 // webpack.config.js
 module.exports = {
   entry: [
-    './src/vendor.ts',
+    './src/vendor',
     './src/main'
   ],
   output: {
