@@ -1,2 +1,5 @@
 const str = 'working';
-alert(str);
+var x = ()=>{
+  alert(str);
+}
+x();

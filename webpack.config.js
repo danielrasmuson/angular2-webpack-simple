@@ -1,12 +1,19 @@
 // webpack.config.js
 module.exports = {
-  entry: './src/test.js',
+  entry: './src/test',
   output: {
     filename: 'bundle.js'
   },
   module: {
     loaders: [
-      { test: /\.js$/, exclude: /node_modules/, loader: "babel-loader" }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+        query: {
+          presets: ['es2015']
+        }
+      }
     ]
   },
   resolve: {
