@@ -2,7 +2,7 @@
 module.exports = {
   entry: [
     './src/vendor.ts',
-    './src/app'
+    './src/main'
   ],
   output: {
     filename: 'bundle.js'

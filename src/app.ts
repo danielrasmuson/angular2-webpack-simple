@@ -7,12 +7,13 @@ import {Component} from '@angular/core'
   template: `
     <div>
       <h2>Hello {{name}}</h2>
-      
+
     </div>
   `,
   directives: []
 })
 export class App {
+  private name: string;
   constructor() {
     this.name = 'Angular2 (Release Candidate!)'
   }
