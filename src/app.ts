@@ -7,7 +7,6 @@ import {Component} from '@angular/core'
   template: `
     <div>
       <h2>What what Hello {{name}}</h2>
-
     </div>
   `,
   directives: []
