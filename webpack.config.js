@@ -1,6 +1,9 @@
 // webpack.config.js
 module.exports = {
-  entry: './src/test',
+  entry: [
+    './src/vendor.ts',
+    './src/app'
+  ],
   output: {
     filename: 'bundle.js'
   },
